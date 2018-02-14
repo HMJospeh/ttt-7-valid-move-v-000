@@ -6,3 +6,4 @@ end
 def new_valid_method?(board, index)
 position_taken? && valid_move? == true
 end
+ 
