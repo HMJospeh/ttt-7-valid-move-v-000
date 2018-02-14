@@ -3,9 +3,7 @@ def valid_move?(board, index)
   board[index] == "X" || board[index] == "O"
   if position_taken? == valid_move?
     return true
-  else 
+  else
     return false
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-
- 
