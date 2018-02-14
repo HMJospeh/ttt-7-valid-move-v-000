@@ -4,9 +4,5 @@ def valid_move?(board, index)
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def invalid_method?(board, index)
-if .
-return true
-else
-  return false
-  end
+position_taken == valid_move?
 end
